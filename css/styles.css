@@ -11520,3 +11520,26 @@ header.masthead h1, header.masthead .h1 {
 .main-img{
   border-radius: 18px;
 }
+.mymodal-left {
+  border-right: 1px dashed #333;
+}
+a{
+  text-decoration: none;
+}
+.close{
+  border: none;
+  font-size: 25px;
+  background-color: white;
+}
+.close:hover{
+  color: #1dc381;
+}
+.regi{
+  color: #1dc381;
+}
+.forgot{
+  color: darkslategray;
+}
+.forgot:hover{
+  color: #1dc381;
+}
