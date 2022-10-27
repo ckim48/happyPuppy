@@ -3215,8 +3215,8 @@ textarea.form-control-lg {
 }
 .btn-light:hover {
   color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
+  background-color: lightgrey;
+  border-color: lightgrey;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #000;
@@ -7810,6 +7810,11 @@ textarea.form-control-lg {
   background-color: #B4E197 !important;
 }
 
+.bg-primary2 {
+  --bs-bg-opacity: 1;
+  background-color: lightgrey;!important;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11312,7 +11317,22 @@ body {
   border: none;
   border-radius: 10rem;
 }
+.btn-xl:hover{
+background-color: 
+}
 
+.btn-s {
+  padding: 1.25rem 2.25rem;
+  width: 25%;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+.btn-s:hover{
+background-color: ;
+}
 hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
@@ -11352,6 +11372,7 @@ hr.divider-light {
 #mainNav2 {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: white;
+  color: black;
   transition: background-color 0.2s ease;
 }
 #mainNav2 .navbar-brand {
@@ -11552,4 +11573,8 @@ a{
 .icon
 {
 color:  black;
+}
+.lst-item{
+  font-size: 1.1rem;
+  color: black;
 }

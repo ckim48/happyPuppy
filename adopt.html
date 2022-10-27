@@ -28,9 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#services">About</a></li>
-<!--                         <li class="nav-item"><a class="nav-link" href="stats.html">Statistics</a></li>
- -->                        <li class="nav-item"><a class="nav-link" href="adopt.html">Adopt</a></li>
+                      <li class="nav-item"><a class="nav-link" href="adopt.html">Adopt</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -64,52 +62,59 @@
 
                     </div>
                 </div>
+
                 <div class="row justify-content-center mt-4 mb-5">
                     <div class="col-lg-6">
                        <ol class="mb-5">
-                        
-                        <li> 
+                        <h5>
+                        <li class="lst-item"> 
                                                         <a class="contact" href="contact.html"> Contact </a> to 4Paws
 
-                            <p></p>
+                            </p>
                         </li>
+                    </h5>
 
                         
 
-                        
-                        <li> 
+                        <h5 class="mt-4">
+                        <li class="lst-item"> 
                                                         Match a dog based on your information and experience
                             <p></p>
                         </li>
+                    </h5>
                         
                         
 
 
-                        
-                        <li> 
+                        <h5 class="mt-4">
+                        <li class="lst-item"> 
                                                         2 weeks training session before adopting a dog
 
                             <p></p>
                         </li>
+                    </h5>
                         
 
-                                                
-                        <li> 
+                             <h5 class="mt-4">                   
+                        <li class="lst-item"> 
                                                         Bring your dog to home
 
                             <p></p>
                         </li>
-                        
+                        </h5>
 
                        </ol>
+
 
                 <img class="img-fluid main-img mt-5 mb-5" src="assets/img/dog_boy.jpg">
 
                     </div>
+                </div>
 
 
+</section>
 
-
+ <section class="page-section bg-primary" id="contact">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0">Things To Do When You Adopt a Pet
@@ -128,15 +133,15 @@
                         </li>
                         </h5>
                         <p>Think about the life you live now and how your new dog or cat will fit into it and what changes you will have to make to accommodate this new family member.</p>
-                        <h5>
-                        <li class="lst"> 
-                            Spend Time with Dogs Before You Bring Them Home
-                            <p></p>
-                        </li>
+                        <h5 class="mt-5">
+                            <li class="lst"> 
+                                Spend Time with Dogs Before You Bring Them Home
+                                <p></p>
+                            </li>
                         </h5>
                         <p>Go to breeder and meet the dog or cat you want to adopt. If possible, go to the breeder and play with the dog. You can also ask the staff at shelter about the dogs you are meeting.</p>
-                        <h5>
-                        <li class="lst mb-3"> 
+                        <h5 class="mt-5">
+                        <li class="lst mb-3" > 
                             Prepare Supplies for your dog
                             <p></p>
                         </li>
@@ -151,17 +156,17 @@
                                 <li>Flea & tick treatments</li>
                                 <li>Dob bed</li>
                             </ul>
-                                                <h5>
+                                                <h5 class="mt-4">
                         <li class="lst"> 
                             Look into Dog Insurance
                             <p></p>
                         </li>
-                        </h5>
+                        </h5 class="mt-5">
                         <p>The average person spends $350 per year on their pet's care. This does not include check up, treatments, and surgeries at hospital which can add cost around $5000. Hence, per insurance is the excellent way to lower to cost.</p>
 
 
 
-                                                <h5>
+                                                <h5 class="mt-5">
                         <li class="lst mb-3"> 
                             Be Patient with Yourself!
                             <p></p>
@@ -172,9 +177,211 @@
                        </ol>
 
                     </div>
+
+
             </div>
+            <center>
+                <a href="" class="btn btn-primary btn-s" data-bs-toggle="modal" data-bs-target="#modalLoginForm">Start adopt</a>
+            </center>
+
         </section>
 
+
+
+<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class=  "row">
+                <div class="col-lg-6 mymodal-left">
+              <div class="modal-body mx-3">
+                <h3>Users</h3>
+                    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="tab-login" data-bs-toggle="pill" href="#pills-login" role="tab"
+                          aria-controls="pills-login" aria-selected="true">Login</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link regi" id="tab-register" data-bs-toggle="pill" href="#pills-register" role="tab"
+                          aria-controls="pills-register" aria-selected="false">Register</a>
+                      </li>
+                    </ul>
+                    <!-- Pills navs -->
+
+                    <!-- Pills content -->
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                        <form>
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input type="email" id="loginName" class="form-control" placeholder="Email" />
+<!--                             <label class="form-label" for="loginName"></label>
+ -->                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+<!--                                 <label for="form-label"></label>
+ -->
+                            <input type="password" id="loginPassword" class="form-control" placeholder="Password" />
+                          </div>
+
+                          <!-- 2 column grid layout -->
+                          <div class="row mb-4">
+                            <div class="col-md-6 d-flex justify-content-center">
+                              <!-- Checkbox -->
+                              <div class="form-check mb-3 mb-md-0">
+                                <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                <label class="form-check-label forgot" for="loginCheck"> Remember me </label>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 d-flex justify-content-center">
+                              <!-- Simple link -->
+                              <a class="forgot" href="#!">Forgot password?</a>
+                            </div>
+                          </div>
+
+                          <!-- Submit button -->
+                          <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                        </form>
+                      </div>
+                      <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                        <form>
+
+                          <!-- Name input -->
+                          <div class="form-outline mb-4">
+                            <input type="text" id="registerName" class="form-control" placeholder="Name" />
+<!--                             <label class="form-label" for="registerName">Name</label>
+ -->                          </div>
+
+                          <div class="form-outline mb-4">
+                            <input type="text" id="registerName" class="form-control" placeholder="Date of birth (ex. 19941115)" />
+<!--                             <label class="form-label" for="registerName">Name</label>
+ -->                          </div>
+
+                          <!-- Username input -->
+                          <div class="form-outline mb-4">
+                            <input type="text" id="registerUsername" class="form-control" placeholder="Username" />
+<!--                             <label class="form-label" for="registerUsername">Username</label>
+ -->                          </div>
+
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input type="email" id="registerEmail" class="form-control" placeholder="Email" />
+<!--                             <label class="form-label" for="registerEmail">Email</label>
+ -->                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input type="password" id="registerPassword" class="form-control" placeholder="Password"/>
+<!--                             <label class="form-label" for="registerPassword">Password</label>
+ -->                          </div>
+
+                          <!-- Repeat Password input -->
+                          <div class="form-outline mb-4">
+                            <input type="password" id="registerRepeatPassword" class="form-control" placeholder="Re-password" />
+<!--                             <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+ -->                          </div>
+
+                            <div class="form-outline mb-4">
+                                <h6>Have you ever had a dog as part of your life?</h6>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                  <label class="form-check-label" for="flexRadioDefault1">
+                                    Yes
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                  <label class="form-check-label" for="flexRadioDefault2">
+                                    No
+                                  </label>
+                                </div>
+                            </div>
+                                                        <div class="form-outline mb-4">
+                                <h6>Have you ever adopted a puppy?</h6>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3">
+                                  <label class="form-check-label" for="flexRadioDefault3">
+                                    Yes
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4" checked>
+                                  <label class="form-check-label" for="flexRadioDefault4">
+                                    No
+                                  </label>
+                                </div>
+                            </div>
+
+                                                        <div class="form-outline mb-4">
+                                <h6>Do you love puppy?</h6>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault5"  checked>
+                                  <label class="form-check-label" for="flexRadioDefault5">
+                                    Yes
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault6">
+                                  <label class="form-check-label" for="flexRadioDefault6">
+                                    No
+                                  </label>
+                                </div>
+                            </div>
+                          <!-- Checkbox -->
+<!--                           <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                              aria-describedby="registerCheckHelpText" />
+                            <label class="form-check-label" for="registerCheck">
+                              I have read and agree to the terms
+                            </label>
+                          </div> -->
+
+                          <!-- Submit button -->
+                          <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+                        </form>
+                      </div>
+                    </div>
+              </div>
+
+
+        </div>
+
+             <div class="col-lg-6 ">
+              <div class="modal-body mx-3 align-items-center">
+                <h3 class="mt-3 mb-5">Admins</h3>
+                          <div class="form-outline mb-4">
+                            <input type="email" id="loginName" class="form-control" placeholder="Email" />
+<!--                             <label class="form-label" for="loginName"></label>
+ -->                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+<!--                                 <label for="form-label"></label>
+ -->
+                            <input type="password" id="loginPassword" class="form-control" placeholder="Password" />
+                          </div>
+                <br>
+              <div class="mt-3">
+                     <button type="submit" class="btn btn-primary btn-block float-right">Log in</button>
+                 </div>
+           </div>
+          </div>
+      </div>
+
+  </div>
+    </div>
+</div>
         <!-- Footer-->
     <footer class="bg-secondary py-3">
         <div class="container px-4 px-lg-5">
